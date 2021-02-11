@@ -2,25 +2,8 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import './App.css';
 
-const particlesOptions = {
-    // particles: {
-    //     number: {
-    //         value: 250,
-    //         density: {
-    //             enable: true,
-    //             value_area: 1500
-    //         }
-    //     }
-    // }
-}
-
 function App () {
     return (
-        // <div className="App">
-        //     <Particles className='particles'
-        //         params={particlesOptions}
-        //     />
-        // </div>
         <Particles
             params={{
                 "particles": {
